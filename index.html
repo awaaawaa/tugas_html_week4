@@ -1,0 +1,26 @@
+<html>
+    <!-- buka tag frameset -->
+    <frameset rows="20%,*,20%" cols="100%" border="3">
+        <!-- buat frameset header -->
+        <frameset cols="10%,*">
+            <frame src="gambar.html" scrolling="no"/>
+            <frameset rows="50%, 50%">
+                <frame src="header.html" scrolling="no"/>
+                <frame src="nav.html">
+            </frameset>
+        </frameset>
+        <!-- tutup frameset header -->
+        <!-- buka frame content -->
+        <frameset cols="75%, *">
+            <frame src="dashboard.html" scrolling="yes" name="main">
+            <frame src="aside.html">
+        </frameset>
+        <!-- tutup frame content -->
+        <!-- footer frame -->
+        <frameset>
+            <frame src="footer.html" scrolling="no"/>
+        </frameset>
+        <!-- tutup footer frame -->
+    </frameset>
+    <!-- tutup tag frameset -->
+</html>
